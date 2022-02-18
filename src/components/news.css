@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.newsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.inputFeild{
+    border:2px solid gray;
+    border-radius:50px;
+    margin:15px 20px;
+    height:35px;
+    width:172px;
+    padding:5px 10px;
+    font-size:20px;
+  }
+  .showNews{
+      display: flex;
+      flex-wrap: wrap;
+  }
+.card{
+    width:280px;
+    height:460px;
+    border:2px solid red;
+    overflow: hidden;
+    margin:25px 30px;
+    
+    
+}
+.cardImg{
+   border: 2px solid lightblue;
+    
+}
+
+.cardImg img{
+    width:280px;
+    height:180px;
+}
+.cardContent{
+    margin:6px 10px;
+    padding:2px;
+}
+.cardContent .cardTitle{
+    width:280px;
+    height:95px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    overflow: hidden;
+}
+.cardText{
+    font-size:15px;
+    width:280px;
+    height:123px;
+    overflow: hidden;
+}
+.moreBtn button{
+    /* border: 2px solid red; */
+    border-radius:20px;
+    background-color:rgb(216, 13, 216);
+    color: white;
+    padding:6px 8px;
+    margin:10px 0px;
+}
+.moreBtn a{
+    text-decoration: none;
+}
+
+@media (max-width: 750px){
+    .newsContainer {
+        align-items: flex-start;
+    }
+}
