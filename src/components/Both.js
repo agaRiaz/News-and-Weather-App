@@ -14,8 +14,8 @@ function Both() {
     
     <div className='weatherComp'>
       <Weather />
-    <div className='lines'><hr/><hr/></div>
     </div>
+    <div className='lines'><hr/><hr/></div>
     <div className='newsComp'>
       <News />
     </div>

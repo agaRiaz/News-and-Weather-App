@@ -34,7 +34,7 @@
     height: 60vh;
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
-    background: #a5bbdd;
+    background: #146bec;
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
@@ -149,7 +149,7 @@
     margin-top: 0.3rem;
     font-weight: 300;
     font-size: 1.2rem;
-    color: #57606f;
+    color: #141618;
   }
   
   #weathercon {
@@ -214,5 +214,14 @@
     font-size:25px;
     font-weight: bold;
   }
- 
-  
+ /* @media(max-width:960px){
+   .wethContainer{
+     align-items: center;
+     justify-content: center;
+   }
+   .box{
+     align-items: center;
+     justify-content: center;
+   }
+ }
+   */

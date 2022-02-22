@@ -16,10 +16,16 @@
     color:rgb(17, 13, 13);
     text-decoration: none;
     padding:15px 10px;
+    
+    
    
 }
-.navbar li .navItem:hover,.navbar li navItem.active{
+.navbar li .navItem:hover,.navbar li .navItem .active{
     color:grey;
-    text-decoration: underline;
+    
+     
    
+}
+.navbar li:hover{
+    transform: scale(1.1);
 }

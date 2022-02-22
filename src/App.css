@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   
+  
 }
 body{
   overflow-x: hidden;
@@ -22,13 +23,14 @@ body{
   
 }
 .lines{
-  visibility: hidden;
-  width:100%;
+  display: none;
+  width:100vw;
 }
 .newsComp{
  
   width:70vw;
-  height:100vh;
+  height:100%;
+  margin-left: 0;
 }
 
 @media (max-width: 750px) {
@@ -39,18 +41,26 @@ body{
     
   }
   .weatherComp{
-    width:50vw;
+    width:65vw;
     height:45vh;
     margin: 25px 28px;
 }
 .lines{
-  visibility: visible;
+  display: block;
 }
 .newsComp{
   width:100vw;
   height:75vh;
 }
 
+}
+
+@media (max-width:960px){
+  .container{
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
 
 
